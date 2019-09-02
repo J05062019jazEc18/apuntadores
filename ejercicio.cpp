@@ -17,7 +17,7 @@ int main (int argc,char** argv){
 	struct Animales *apuntador;
 	apuntador=A1;
 	
-	for(int i=0; i<2;i++){
+	for(int i=0; i<1;i++){
 		
 		cout<<"Nombre:";
 		cin.getline(A1[i].nombre,20,'\n');	
@@ -29,11 +29,11 @@ int main (int argc,char** argv){
 		fflush(stdin);
 		cin.getline(A1[i].clas.tipo,20,'\n');                
 	}
-	cout<<endl<<"Nombre guardado: "<<apuntador->nombre;
-	cout<<endl<<"Edad guardada: "<<apuntador->edad;
-	cout<<endl<<"Color guardado: "<<apuntador->color;
-	cout<<endl<<"Clase guardada: "<<apuntador->clas.tipo;
-	                                                                                                                                                                                                                                         
+		cout<<endl<<"Nombre guardado: "<<apuntador->nombre;
+		cout<<endl<<"Edad guardada: "<<apuntador->edad;
+		cout<<endl<<"Color guardado: "<<apuntador->color;
+		cout<<endl<<"Clase guardada: "<<apuntador->clas.tipo;
+                                                                                                                                                                                                                                         
                                                                                                                                                                                           
 
 	getch();
